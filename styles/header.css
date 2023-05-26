@@ -1,0 +1,26 @@
+header{
+    padding-top: 45px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-list{
+    display: flex;
+    gap: 20px;
+}
+.header-nav-list li:hover {
+    color: #1a75e8;
+}
+.header-nav-btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.register{
+    padding: 15px 30px;
+    background: #1a75e8;
+    border-radius: 5px;
+    color: #ffff;
+}

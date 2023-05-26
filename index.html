@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find job</title>
-    <link rel="stylesheet" href="/style.css/reset.css">
+    <link rel="stylesheet" href="/styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div class="wrapper">
@@ -25,13 +25,34 @@
                     <li><a href="">Компанії</a></li>
                 </ul>
                 <div class="header-nav-btn">
-                    <button class="login">Увійти</button>
-                    <button class="register">Реєстрація</button>
+                    <a href="#" class="login">Увійти</a>
+                    <a href="#" class="register">Реєстрація</a>
                 </div>
             </nav>
 
             <section class="header-main">
-                <div class="header-main-card"></div>
+                <div class="header-main-card">
+                   <h2 class="header-card-title">Знайди роботу своєї мрії</h2>
+                   <p class="header-card-text">
+                    Створіть резюме або надішліть відгук на вакансію
+                    у компанії зі світовим ім'ям і працюйте за вільним графіком</p> 
+                    <form action="" class="header-card-search">
+                      <input type="text" class="seargh-input" placeholder="Почати пошук"> 
+                      <button class="search-button"> Шукати вакансію</button>
+                    </form>
+                    <div class="header-card-example">
+                        <h5 class="header-example-title">Наприклад</h5>
+                        <span class="header-example-item">
+                            Front-end
+                        </span>
+                        <span class="header-example-item">
+                            Back-end
+                        </span>
+                        <span class="header-example-item">
+                            Designer
+                        </span>
+                    </div>
+                </div>
                 <div class="header-main-img">
                     <img src="/img/hero-image.png" alt="hero">
                 </div>
