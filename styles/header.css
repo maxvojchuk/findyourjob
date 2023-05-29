@@ -19,8 +19,65 @@ header{
     gap: 40px;
 }
 .register{
-    padding: 15px 30px;
-    background: #1a75e8;
+}
+
+.header-main{
+display: flex;
+align-items: center;
+gap: 130px;
+}
+.header-card-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+}
+.header-card-text{
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.header-card-search{
+    display: flex;
+    gap: 100;
+    background: #ffff;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;  
+    padding: 10px 10px 10px 25px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.search-input {
+ border: none;
+ outline: none;   
+}
+.search-button{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.search-button::before{
+    content: url("/img/search.svg");
+}
+.header-card-example{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header-example-title,
+.header-example-item{
+    font-size: 14px;
+    line-height: 17px;
+    color: #B2B2B2;
+    font-weight: 400;
+}
+.header-example-item{
+    border: 1px solid #B2B2B2;
     border-radius: 5px;
-    color: #ffff;
+    padding: 5px 10px;
+
 }
