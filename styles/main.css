@@ -1,0 +1,50 @@
+/*Секція категорії*/
+.main-category{
+padding-top: 70px;
+padding-bottom: 80px;
+}
+.category-title{
+    font-weight:700 ;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 40px;
+}
+.category-items{
+    display: flex;
+    gap: 30px;
+}
+.category-item{
+    min-width: 166px;
+    min-height: 128px;
+    background: rgb(191, 187, 187);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.category-item::before{
+   content: "";
+   width: 24px;
+   height: 24px;
+   background-image: url(/img/category/brush.svg);
+}
+.category-item:nth-child(2)::before{
+    background-image: url(/img/category/browser.svg);
+}
+.category-item:nth-child(3)::before{
+    background-image: url(/img/category/edit\ 1.svg);
+}
+.category-item:nth-child(4)::before{
+    background-image: url(/img/category/fingerprint.svg);
+}
+.category-item:nth-child(5)::before{
+    background-image: url(/img/category/camera\ 1.svg);
+}
+.category-item:nth-child(6)::before{
+    background-image: url(/img/category/school\ 1.svg);
+}
+.category-item:hover::before {
+    filter: brightness(0) invert(1);
+  }
